@@ -1,0 +1,47 @@
+// CSS Variables
+$fontFamily:'Manrope',
+sans-serif;
+$lightCyan: hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+$grayishBlue: hsl(217, 19%, 38%);
+$darkGrayishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%);
+$quoteFontSize : 28px;
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $fontFamily;
+}
+
+.container {
+    background-color: $darkBlue;
+    height: 80vh;
+    font-size: $quoteFontSize;
+
+    .colMar {
+        margin-top: 5rem;
+    }
+
+    .card {
+        background-color: $darkGrayishBlue;
+
+        .card-body {
+            .card-title {
+                color: $neonGreen;
+                text-transform: uppercase;
+                letter-spacing: 0.3rem;
+            }
+
+            .para {
+                color: $lightCyan;
+            }
+        }
+
+        .card-footer :hover {
+            background-color: $neonGreen;
+            cursor: pointer;
+        }
+    }
+}

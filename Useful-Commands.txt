@@ -1,0 +1,20 @@
+1)To install bootstrap V4
+  npm i bootstrap@4.3.1
+
+2)To install Sass
+  npm install sass --save-dev
+
+3)To install axios
+  npm i axios
+
+4)To install sweetalert
+  npm i sweetalert
+
+5)To install ViteJS
+  a)npm create vite@latest
+  b)cd folder-name
+  c)npm install
+  d)npm run dev
+
+6)To install Fontawesome
+  npm install react-icons --save
