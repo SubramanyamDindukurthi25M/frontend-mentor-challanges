@@ -18,3 +18,6 @@
 
 6)To install Fontawesome
   npm install react-icons --save
+
+7)To install react-router-dom
+  npm install react-router-dom@6

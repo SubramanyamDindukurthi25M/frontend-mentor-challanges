@@ -19,11 +19,13 @@ export const DisplayData = ({sendQuoteObject,handleFetchRandomQuote}) => {
                                 </div>
                                 <div className="card-text">
                                     <blockquote className='blockquote'>
-                                        <p className='lead para'>
-                                            <FaQuoteLeft className='mr-2'/>
-                                                {sendQuoteObject.advice}
-                                            <FaQuoteRight className='ml-2'/>
-                                        </p>
+                                        {
+                                            sendQuoteObject.advice && <p className='lead para'>
+                                                <FaQuoteLeft className='mr-2'/>
+                                                    {sendQuoteObject.advice}
+                                                <FaQuoteRight className='ml-2'/>
+                                            </p>
+                                        }
                                     </blockquote>
                                 </div>
                             </div>
