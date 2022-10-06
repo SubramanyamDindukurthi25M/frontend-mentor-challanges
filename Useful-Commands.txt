@@ -21,3 +21,18 @@
 
 7)To install react-router-dom
   npm install react-router-dom@6
+
+Firebase commands.
+8)To check firebase version - npm view firebase version dist-tags
+To check firebase path where it is installed - npm ls -g --depth=0 
+To login to firebase - firebase login --reauth
+To logout from firebase - firebase logout
+To list all projects in firebase - firebase projects:list
+To navigate to another project - firebase use  talent-miner-b3c19
+After hosting in firebase, if we make changes in source code to reflect changes - yarn build and firebase deploy.
+To deploy functions - firebase deploy --only functions
+To check node.js version - node -v
+To check npm version - npm -v
+To remove origin - git remote  remove origin
+
+9)Shortcut for Snipping Tool - Windows + Shift + S
